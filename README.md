@@ -38,6 +38,11 @@ repaint a buffer differently from the parser. Token modifiers are mapped too: a
 read-only symbol is coloured as a constant, one from the standard library as a
 builtin, and a deprecated one is struck through.
 
+Plugins covered: gitsigns, mini.nvim (diff, files, pick, statusline,
+hipatterns, indentscope, surround, icons), blink.cmp, nvim-cmp, Telescope,
+indent-blankline, copilot.vim and obsidian.nvim. Group names are taken from each
+plugin's own source.
+
 ## Files
 
 - `colors/acid-acetic.lua`
