@@ -1,15 +1,16 @@
 # Acid for Neovim
 
-Three flavours: **Acetic** (`#000000`), pure black with vibrant accents; **Citric** (`#1c1b19`), warm dark grey with muted accents; and **Lactic** (`#ffffff`), white with accents darkened to match.
+Generated from [acid-theme/acid](https://github.com/acid-theme/acid) — open issues
+and pull requests there.
 
-Part of [Acid](https://github.com/acid-theme/acid), a very dark colourscheme in two
-flavours. The main README lists the other ports.
+<details>
+<summary>Screenshots</summary>
 
-## Preview
+| Acetic | Citric | Lactic |
+| --- | --- | --- |
+| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) | ![Acid Lactic](previews/lactic.png) |
 
-| Acetic | Citric |
-| --- | --- |
-| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) |
+</details>
 
 ## Install
 
@@ -29,33 +30,6 @@ With lazy.nvim:
 Or without a plugin manager, by dropping `colors/acid-acetic.lua` into
 `~/.config/nvim/colors/`.
 
-Covers the editor and chrome groups, legacy syntax, every treesitter capture
-Neovim documents, markup, diagnostics, diffs, spelling, `:terminal` and git
-signs.
+## Credits
 
-LSP semantic tokens link to the treesitter groups, so a language server cannot
-repaint a buffer differently from the parser. Token modifiers are mapped too: a
-read-only symbol is coloured as a constant, one from the standard library as a
-builtin, and a deprecated one is struck through.
-
-Plugins covered: gitsigns, mini.nvim (diff, files, pick, statusline,
-hipatterns, indentscope, surround, icons), blink.cmp, nvim-cmp, Telescope,
-indent-blankline, copilot.vim and obsidian.nvim. Group names are taken from each
-plugin's own source.
-
-## Files
-
-- `colors/acid-acetic.lua`
-- `colors/acid-citric.lua`
-- `colors/acid-lactic.lua`
-
-## Generated
-
-Acid 0.1.0, rendered by acidify from
-[`ports/neovim/acid.lua.tera`](https://github.com/acid-theme/acid/blob/main/ports/neovim/acid.lua.tera).
-Edits to these files are overwritten on the next release. Report issues on
-[acid-theme/acid](https://github.com/acid-theme/acid/issues).
-
-## Licence
-
-MIT.
+[@ssiyad](https://github.com/ssiyad)
