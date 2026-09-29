@@ -8,6 +8,7 @@ on:
     paths:
       - "colors/acid-acetic.lua"
       - "colors/acid-citric.lua"
+      - "colors/acid-lactic.lua"
       - "preview/**"
   workflow_dispatch:
 
